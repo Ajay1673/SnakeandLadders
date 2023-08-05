@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header,footer{
+    background-color: rgba(35, 35, 229, 0.749);
+    min-height: 5vh;
+    text-align: center;
+}
+header{
+    top: 0;
+}
+footer{
+    bottom: 0;
+}
+main{
+    flex-grow: 1;
+    background-color: aqua;
+}
+.snake-ladder-bg{
+    /* background-color: aquamarine; */
+    height: 100vh;
+    background-image: url('images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: max(80vw,20rem); */
+}
